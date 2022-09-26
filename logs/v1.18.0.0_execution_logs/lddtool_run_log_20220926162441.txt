@@ -1,12 +1,12 @@
 
->>  INFO LDDTOOL Version: 14.0.13
+>>  INFO LDDTOOL Version: 10.0.0
 >>  INFO IM Version Id: 1.18.0.0
 >>  INFO IM Namespace Id: pds
 >>  INFO IM Label Version Id: 1.24
->>  INFO Date: Mon Sep 19 19:18:48 UTC 2022
->>  INFO PARENT_DIR: /tmp/lddtool-14.0.13
->>  INFO SCRIPT_DIR: /tmp/lddtool-14.0.13/bin
->>  INFO LIB_DIR: /tmp/lddtool-14.0.13/lib
+>>  INFO Date: Mon Sep 26 16:24:42 UTC 2022
+>>  INFO PARENT_DIR: /tmp/lddtool-14.1.0
+>>  INFO SCRIPT_DIR: /tmp/lddtool-14.1.0/bin
+>>  INFO LIB_DIR: /tmp/lddtool-14.1.0/lib
 
 >>> INFO Init:  - Config.Properties Namespace Id Found:hyb2
 >>> INFO Init:  - Config.Properties Namespace Id Using:hyb2
@@ -154,6 +154,7 @@ Input:
      - IM Version: 1I00
      - PDS4 Flag: true
      - LDD Flag: true
+     - IM Version: true
      - Export JSON Flag: true
 
      - Ingest LDD(s): /home/runner/work/ldd-hyb2/ldd-hyb2/src/PDS4_HYB2_IngestLDD.xml

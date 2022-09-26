@@ -1,0 +1,171 @@
+
+>>  INFO LDDTOOL Version: 14.1.0
+>>  INFO IM Version Id: 1.14.0.0
+>>  INFO IM Namespace Id: pds
+>>  INFO IM Label Version Id: 1.20
+>>  INFO Date: Mon Sep 26 16:24:50 UTC 2022
+>>  INFO PARENT_DIR: /tmp/lddtool-14.1.0
+>>  INFO SCRIPT_DIR: /tmp/lddtool-14.1.0/bin
+>>  INFO LIB_DIR: /tmp/lddtool-14.1.0/lib
+>>  WARNING Class omitted from build - Class Identifier:0001_NASA_PDS_1.pds.Schematron_Rule
+>>  WARNING Class omitted from build - Class Identifier:0001_NASA_PDS_1.pds.Schematron_Assert
+
+>>> INFO Init:  - Config.Properties Namespace Id Using:pds
+>>> INFO Init:  - LDD Dictionary_Type is Mission
+>>> INFO Attribute: <distance_to_ryugu_at_center> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <spatial_resolution_of_ryugu_at_center> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <smear_correction_status> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <bias_correction_status> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <dark_correction_status> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <radiance_conversion_status> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <hardware_correction_file_name> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <nonlinearity_correction_status> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <nonlinearity_correction_file_name> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <flat_field_correction_status> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <temperature_dependent_flat_field_correction_file_name> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <stray_light_correction_status> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <distortion_correction_file_name> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <ccd_sensitivity_calibration_file_name> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <photometric_correction_file_name> - A 'nillable' attribute was found that is not a required attribute in at least one class.
+>>> INFO Attribute: <spacecraft_clock_start_count> - The default minimum characters provided by the attribute's data type is being overridden with 12
+>>> INFO Attribute: <spacecraft_clock_start_count> - The default maximum characters provided by the attribute's data type is being overridden with 12
+>>> INFO Attribute: <spacecraft_clock_stop_count> - The default minimum characters provided by the attribute's data type is being overridden with 12
+>>> INFO Attribute: <spacecraft_clock_stop_count> - The default maximum characters provided by the attribute's data type is being overridden with 12
+>>> INFO Attribute: <raw_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <raw_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <ryugu_distance_from_spacecraft> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <earth_distance_from_spacecraft> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <sun_distance_from_spacecraft> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <sun_distance_from_ryugu> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <sun_direction_spacecraft_x_axis_angle> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <sun_direction_spacecraft_x_axis_angle> - The default maximum value provided by the attribute's data type is being overridden with 180.0
+>>> INFO Attribute: <sun_direction_spacecraft_y_axis_angle> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <sun_direction_spacecraft_y_axis_angle> - The default maximum value provided by the attribute's data type is being overridden with 180.0
+>>> INFO Attribute: <sun_direction_spacecraft_z_axis_angle> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <sun_direction_spacecraft_z_axis_angle> - The default maximum value provided by the attribute's data type is being overridden with 180.0
+>>> INFO Attribute: <distance_to_ryugu_at_center> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <spatial_resolution_of_ryugu_at_center> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <backplane_shape_model_spice_kernel_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <backplane_shape_model_spice_kernel_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <exposure_duration> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <exposure_duration> - The default maximum value provided by the attribute's data type is being overridden with 178.26
+>>> INFO Attribute: <band_center> - The default minimum value provided by the attribute's data type is being overridden with 0
+>>> INFO Attribute: <bandwidth> - The default minimum value provided by the attribute's data type is being overridden with 0
+>>> INFO Attribute: <unit_count_value> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <linearity_guaranteed_range> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <first_rotation_angle_for_stray_light> - The default minimum value provided by the attribute's data type is being overridden with -180.0
+>>> INFO Attribute: <first_rotation_angle_for_stray_light> - The default maximum value provided by the attribute's data type is being overridden with 180.0
+>>> INFO Attribute: <second_rotation_angle_for_stray_light> - The default minimum value provided by the attribute's data type is being overridden with -180.0
+>>> INFO Attribute: <second_rotation_angle_for_stray_light> - The default maximum value provided by the attribute's data type is being overridden with 180.0
+>>> INFO Attribute: <number_of_subimage> - The default minimum value provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <number_of_subimage> - The default maximum value provided by the attribute's data type is being overridden with 32
+>>> INFO Attribute: <sequence_number> - The default minimum value provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <sequence_number> - The default maximum value provided by the attribute's data type is being overridden with 32
+>>> INFO Attribute: <sequence_number> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <sequence_number> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <sequence_number> - This local attribute has a duplicate in the PDS4 data dictionary.
+>>> INFO Attribute: <spacecraft_clock_count> - The default minimum characters provided by the attribute's data type is being overridden with 12
+>>> INFO Attribute: <spacecraft_clock_count> - The default maximum characters provided by the attribute's data type is being overridden with 12
+>>> INFO Attribute: <t_exposure_duration> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <t_exposure_duration> - The default maximum value provided by the attribute's data type is being overridden with 178.26
+>>> INFO Attribute: <w1_exposure_duration> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <w1_exposure_duration> - The default maximum value provided by the attribute's data type is being overridden with 5.57056
+>>> INFO Attribute: <w2_exposure_duration> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <w2_exposure_duration> - The default maximum value provided by the attribute's data type is being overridden with 44.56448
+>>> INFO Attribute: <filter_wheel_driver_timeout_error_count> - The default minimum value provided by the attribute's data type is being overridden with 0
+>>> INFO Attribute: <filter_wheel_driver_timeout_error_count> - The default maximum value provided by the attribute's data type is being overridden with 15
+>>> INFO Attribute: <filter_wheel_driver_step_count> - The default minimum value provided by the attribute's data type is being overridden with -32768
+>>> INFO Attribute: <filter_wheel_driver_step_count> - The default maximum value provided by the attribute's data type is being overridden with 32767
+>>> INFO Attribute: <filter_wheel_driver_step_counter_error_count> - The default minimum value provided by the attribute's data type is being overridden with 0
+>>> INFO Attribute: <filter_wheel_driver_step_counter_error_count> - The default maximum value provided by the attribute's data type is being overridden with 15
+>>> INFO Attribute: <hardware_correction_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <hardware_correction_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <nonlinearity_correction_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <nonlinearity_correction_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <flat_field_correction_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <flat_field_correction_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <flat_field_correction_parameter_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <flat_field_correction_parameter_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <temperature_dependent_flat_field_correction_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <temperature_dependent_flat_field_correction_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <stray_light_mean_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <stray_light_mean_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <stray_light_first_principal_component_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <stray_light_first_principal_component_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <stray_light_second_principal_component_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <stray_light_second_principal_component_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <distortion_correction_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <distortion_correction_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <radiometric_calibration_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <radiometric_calibration_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <ccd_sensitivity_calibration_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <ccd_sensitivity_calibration_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <ccd_sensitivity> - The default minimum value provided by the attribute's data type is being overridden with 0
+>>> INFO Attribute: <elapsed_time_for_sensitivity_calibration> - The default minimum value provided by the attribute's data type is being overridden with 0
+>>> INFO Attribute: <solar_distance_for_calibration> - The default minimum value provided by the attribute's data type is being overridden with 0
+>>> INFO Attribute: <effective_solar_irradiance> - The default minimum value provided by the attribute's data type is being overridden with 0
+>>> INFO Attribute: <photometric_correction_file_name> - The default minimum characters provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <photometric_correction_file_name> - The default maximum characters provided by the attribute's data type is being overridden with 255
+>>> INFO Attribute: <bus_line_voltage> - The default minimum value provided by the attribute's data type is being overridden with 0.23
+>>> INFO Attribute: <bus_line_voltage> - The default maximum value provided by the attribute's data type is being overridden with 74.68
+>>> INFO Attribute: <onc_electric_current> - The default minimum value provided by the attribute's data type is being overridden with 0.00
+>>> INFO Attribute: <onc_electric_current> - The default maximum value provided by the attribute's data type is being overridden with 2.93
+>>> INFO Attribute: <fla_c_electric_current> - The default minimum value provided by the attribute's data type is being overridden with 0.00
+>>> INFO Attribute: <fla_c_electric_current> - The default maximum value provided by the attribute's data type is being overridden with 5.81
+>>> INFO Attribute: <onc_analog_electronics_temperature> - The default minimum value provided by the attribute's data type is being overridden with -52.67045737
+>>> INFO Attribute: <onc_analog_electronics_temperature> - The default maximum value provided by the attribute's data type is being overridden with 80.21838988
+>>> INFO Attribute: <t_optics_temperature> - The default minimum value provided by the attribute's data type is being overridden with -53.40
+>>> INFO Attribute: <t_optics_temperature> - The default maximum value provided by the attribute's data type is being overridden with 79.49
+>>> INFO Attribute: <t_ccd_temperature> - The default minimum value provided by the attribute's data type is being overridden with -52.17
+>>> INFO Attribute: <t_ccd_temperature> - The default maximum value provided by the attribute's data type is being overridden with 80.72
+>>> INFO Attribute: <t_electric_circuit_temperature> - The default minimum value provided by the attribute's data type is being overridden with -52.62
+>>> INFO Attribute: <t_electric_circuit_temperature> - The default maximum value provided by the attribute's data type is being overridden with 80.27
+>>> INFO Attribute: <w1_optics_temperature> - The default minimum value provided by the attribute's data type is being overridden with -52.16
+>>> INFO Attribute: <w1_optics_temperature> - The default maximum value provided by the attribute's data type is being overridden with 80.73
+>>> INFO Attribute: <w1_ccd_temperature> - The default minimum value provided by the attribute's data type is being overridden with -50.69
+>>> INFO Attribute: <w1_ccd_temperature> - The default maximum value provided by the attribute's data type is being overridden with 82.20
+>>> INFO Attribute: <w1_electric_circuit_temperature> - The default minimum value provided by the attribute's data type is being overridden with -51.03
+>>> INFO Attribute: <w1_electric_circuit_temperature> - The default maximum value provided by the attribute's data type is being overridden with 81.86
+>>> INFO Attribute: <w2_optics_temperature> - The default minimum value provided by the attribute's data type is being overridden with -52.37
+>>> INFO Attribute: <w2_optics_temperature> - The default maximum value provided by the attribute's data type is being overridden with 80.52
+>>> INFO Attribute: <w2_ccd_temperature> - The default minimum value provided by the attribute's data type is being overridden with -52.98
+>>> INFO Attribute: <w2_ccd_temperature> - The default maximum value provided by the attribute's data type is being overridden with 79.90
+>>> INFO Attribute: <w2_electric_circuit_temperature> - The default minimum value provided by the attribute's data type is being overridden with -53.10
+>>> INFO Attribute: <w2_electric_circuit_temperature> - The default maximum value provided by the attribute's data type is being overridden with 79.79
+>>> INFO Attribute: <fla_c_temperature> - The default minimum value provided by the attribute's data type is being overridden with -52.27
+>>> INFO Attribute: <fla_c_temperature> - The default maximum value provided by the attribute's data type is being overridden with 80.62
+>>> INFO Attribute: <number_of_accumulated_images> - The default minimum value provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <number_of_accumulated_images> - The default maximum value provided by the attribute's data type is being overridden with 128
+>>> INFO Attribute: <number_of_stack> - The default minimum value provided by the attribute's data type is being overridden with 1
+>>> INFO Attribute: <number_of_stack> - The default maximum value provided by the attribute's data type is being overridden with 1024
+>>> INFO Attribute: <exposure_duration> - The default minimum value provided by the attribute's data type is being overridden with 0.01
+>>> INFO Attribute: <exposure_duration> - The default maximum value provided by the attribute's data type is being overridden with 10
+>>> INFO Attribute: <chopper_frequency_average> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <chopper_frequency_maximum> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> INFO Attribute: <chopper_frequency_minimum> - The default minimum value provided by the attribute's data type is being overridden with 0.0
+>>> WARNING Init:  - Config.Properties Namespace Id Not Found:hyb2
+>>> WARNING Attribute: <exposure_duration> - The attribute name is duplicated in this local data dictionary.
+
+ -- LDDTool Execution Summary --
+     4 warning(s)
+     0 error(s)
+     0 fatal error(s)
+
+Input:
+
+     - IM Version: 1E00
+     - PDS4 Flag: true
+     - LDD Flag: true
+     - IM Version: true
+     - Export JSON Flag: true
+
+     - Ingest LDD(s): /home/runner/work/ldd-hyb2/ldd-hyb2/src/PDS4_HYB2_IngestLDD.xml
+
+Output:
+
+     - ./PDS4_HYB2_1E00_1200.xsd
+     - ./PDS4_HYB2_1E00_1200.sch
+     - ./PDS4_HYB2_1E00_1200.xml
+     - ./PDS4_HYB2_1E00_1200.JSON
+
+>>  INFO Exit(0)
