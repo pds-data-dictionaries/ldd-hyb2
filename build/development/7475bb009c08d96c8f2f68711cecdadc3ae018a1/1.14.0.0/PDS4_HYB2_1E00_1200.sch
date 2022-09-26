@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <!-- PDS4 Schematron for Name Space Id:hyb2  Version:1.2.0.0 - Mon Sep 19 19:18:48 UTC 2022 -->
-  <!-- Generated from the PDS4 Information Model Version 1.18.0.0 - System Build 12.1 -->
+  <!-- PDS4 Schematron for Name Space Id:hyb2  Version:1.2.0.0 - Mon Sep 26 16:24:50 UTC 2022 -->
+  <!-- Generated from the PDS4 Information Model Version 1.14.0.0 - System Build 10b -->
   <!-- *** This PDS4 schematron file is an operational deliverable. *** -->
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
 
@@ -8,7 +8,7 @@
 
   <sch:ns uri="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
   <sch:ns uri="http://pds.nasa.gov/pds4/pds/v1" prefix="pds"/>
-  <sch:ns uri="http://darts.isas.jaxa.jp/pds4/mission/hyb2/v1" prefix="hyb2"/>
+  <sch:ns uri="http://pds.nasa.gov/pds4/mission/hyb2/v1" prefix="hyb2"/>
 
 		   <!-- ================================================ -->
 		   <!-- NOTE:  There are two types of schematron rules.  -->
@@ -41,9 +41,9 @@
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="hyb2:Image_Observation_Information/hyb2:exposure_duration">
-      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr')">
+      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr')">
         <title>hyb2:Image_Observation_Information/hyb2:exposure_duration/hyb2:exposure_duration</title>
-        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -125,23 +125,23 @@
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="hyb2:NIRS3_Instrument_Attributes/hyb2:chopper_frequency_average">
-      <sch:assert test="@unit = ('GHz', 'Hz', 'MHz', 'THz', 'kHz', 'mHz')">
+      <sch:assert test="@unit = ('Hz')">
         <title>hyb2:NIRS3_Instrument_Attributes/hyb2:chopper_frequency_average/hyb2:chopper_frequency_average</title>
-        The attribute @unit must be equal to one of the following values 'GHz', 'Hz', 'MHz', 'THz', 'kHz', 'mHz'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'Hz'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="hyb2:NIRS3_Instrument_Attributes/hyb2:chopper_frequency_maximum">
-      <sch:assert test="@unit = ('GHz', 'Hz', 'MHz', 'THz', 'kHz', 'mHz')">
+      <sch:assert test="@unit = ('Hz')">
         <title>hyb2:NIRS3_Instrument_Attributes/hyb2:chopper_frequency_maximum/hyb2:chopper_frequency_maximum</title>
-        The attribute @unit must be equal to one of the following values 'GHz', 'Hz', 'MHz', 'THz', 'kHz', 'mHz'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'Hz'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="hyb2:NIRS3_Instrument_Attributes/hyb2:chopper_frequency_minimum">
-      <sch:assert test="@unit = ('GHz', 'Hz', 'MHz', 'THz', 'kHz', 'mHz')">
+      <sch:assert test="@unit = ('Hz')">
         <title>hyb2:NIRS3_Instrument_Attributes/hyb2:chopper_frequency_minimum/hyb2:chopper_frequency_minimum</title>
-        The attribute @unit must be equal to one of the following values 'GHz', 'Hz', 'MHz', 'THz', 'kHz', 'mHz'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'Hz'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -181,9 +181,9 @@
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="hyb2:NIRS3_Instrument_Attributes/hyb2:exposure_duration">
-      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr')">
+      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr')">
         <title>hyb2:NIRS3_Instrument_Attributes/hyb2:exposure_duration/hyb2:exposure_duration</title>
-        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -300,9 +300,9 @@
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="hyb2:ONC_Band_Information/hyb2:exposure_duration">
-      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr')">
+      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr')">
         <title>hyb2:ONC_Band_Information/hyb2:exposure_duration/hyb2:exposure_duration</title>
-        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -466,9 +466,9 @@
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="hyb2:ONC_Image_Processing_Parameters/hyb2:elapsed_time_for_sensitivity_calibration">
-      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr')">
+      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr')">
         <title>hyb2:ONC_Image_Processing_Parameters/hyb2:elapsed_time_for_sensitivity_calibration/hyb2:elapsed_time_for_sensitivity_calibration</title>
-        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -858,9 +858,9 @@
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="hyb2:Sub_Image_Information/hyb2:t_exposure_duration">
-      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr')">
+      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr')">
         <title>hyb2:Sub_Image_Information/hyb2:t_exposure_duration/hyb2:t_exposure_duration</title>
-        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -886,9 +886,9 @@
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="hyb2:Sub_Image_Information/hyb2:w1_exposure_duration">
-      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr')">
+      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr')">
         <title>hyb2:Sub_Image_Information/hyb2:w1_exposure_duration/hyb2:w1_exposure_duration</title>
-        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -907,9 +907,9 @@
   </sch:pattern>
   <sch:pattern>
     <sch:rule context="hyb2:Sub_Image_Information/hyb2:w2_exposure_duration">
-      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr')">
+      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr')">
         <title>hyb2:Sub_Image_Information/hyb2:w2_exposure_duration/hyb2:w2_exposure_duration</title>
-        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr'.</sch:assert>
+        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 's', 'yr'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
