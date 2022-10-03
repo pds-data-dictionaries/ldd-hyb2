@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <!-- PDS4 Schematron for Name Space Id:hyb2  Version:1.2.0.0 - Mon Oct 03 18:36:02 UTC 2022 -->
+  <!-- PDS4 Schematron for Name Space Id:hyb2  Version:1.2.0.0 - Mon Oct 03 19:26:48 UTC 2022 -->
   <!-- Generated from the PDS4 Information Model Version 1.14.0.0 - System Build 10b -->
   <!-- *** This PDS4 schematron file is an operational deliverable. *** -->
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
@@ -8,7 +8,7 @@
 
   <sch:ns uri="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
   <sch:ns uri="http://pds.nasa.gov/pds4/pds/v1" prefix="pds"/>
-  <sch:ns uri="http://pds.nasa.gov/pds4/mission/hyb2/v1" prefix="hyb2"/>
+  <sch:ns uri="http://darts.isas.jaxa.jp/pds4/mission/hyb2/v1" prefix="hyb2"/>
 
 		   <!-- ================================================ -->
 		   <!-- NOTE:  There are two types of schematron rules.  -->

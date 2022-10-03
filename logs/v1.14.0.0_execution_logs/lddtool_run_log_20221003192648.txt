@@ -1,16 +1,17 @@
 
->>  INFO LDDTOOL Version: 14.1.0
+>>  INFO LDDTOOL Version: 14.1.1
 >>  INFO IM Version Id: 1.14.0.0
 >>  INFO IM Namespace Id: pds
 >>  INFO IM Label Version Id: 1.20
->>  INFO Date: Mon Oct 03 18:36:02 UTC 2022
->>  INFO PARENT_DIR: /tmp/lddtool-14.1.0
->>  INFO SCRIPT_DIR: /tmp/lddtool-14.1.0/bin
->>  INFO LIB_DIR: /tmp/lddtool-14.1.0/lib
+>>  INFO Date: Mon Oct 03 19:26:48 UTC 2022
+>>  INFO PARENT_DIR: /tmp/lddtool-14.1.1
+>>  INFO SCRIPT_DIR: /tmp/lddtool-14.1.1/bin
+>>  INFO LIB_DIR: /tmp/lddtool-14.1.1/lib
 >>  WARNING Class omitted from build - Class Identifier:0001_NASA_PDS_1.pds.Schematron_Rule
 >>  WARNING Class omitted from build - Class Identifier:0001_NASA_PDS_1.pds.Schematron_Assert
 
->>> INFO Init:  - Config.Properties Namespace Id Using:pds
+>>> INFO Init:  - Config.Properties Namespace Id Found:hyb2
+>>> INFO Init:  - Config.Properties Namespace Id Using:hyb2
 >>> INFO Init:  - LDD Dictionary_Type is Mission
 >>> INFO Attribute: <distance_to_ryugu_at_center> - A 'nillable' attribute was found that is not a required attribute in at least one class.
 >>> INFO Attribute: <spatial_resolution_of_ryugu_at_center> - A 'nillable' attribute was found that is not a required attribute in at least one class.
@@ -143,11 +144,10 @@
 >>> INFO Attribute: <chopper_frequency_average> - The default minimum value provided by the attribute's data type is being overridden with 0.0
 >>> INFO Attribute: <chopper_frequency_maximum> - The default minimum value provided by the attribute's data type is being overridden with 0.0
 >>> INFO Attribute: <chopper_frequency_minimum> - The default minimum value provided by the attribute's data type is being overridden with 0.0
->>> WARNING Init:  - Config.Properties Namespace Id Not Found:hyb2
 >>> WARNING Attribute: <exposure_duration> - The attribute name is duplicated in this local data dictionary.
 
  -- LDDTool Execution Summary --
-     4 warning(s)
+     3 warning(s)
      0 error(s)
      0 fatal error(s)
 
